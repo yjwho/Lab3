@@ -1,0 +1,89 @@
+#header{
+    background-image: url(header.png);
+    align-content: center;
+    background-size: cover;
+    background-repeat: repeat;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    text-shadow: 2px 2px 8px #8A8184;
+        padding: 0px;
+	color: darkred; 
+	font-size: 100px;
+	font-weight: bolder;
+}
+
+
+body{
+    background-color: #6F7869;
+    font-family: 'Butterfly Kids', cursive;
+    font-size: 40px;
+    color: #EFF0DA;
+}
+
+input{
+	font-family: 'Raleway', sans-serif;
+    background-color: #6F7869;
+    width: 20%;
+    padding: 6px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #F1D0CA;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+	color: #EFF0DA;
+    font-size: 20px;
+}
+
+input:focus {
+    border: 3px solid #E3A7A3;
+}
+
+.button {
+    background-color: #C47372;
+    border: none;
+    color: #EBEBD6;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #783647;
+    color: white;
+}
+
+.User-list {
+    list-style: none;
+}
+
+.Avatar {
+    display: inline-block;
+    float:left;
+    text-align: center;  
+    padding: 50px;
+}
+
+.Avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.Avatar h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-transform: none;
+    color: #EFF0DA;
+}
+.Avatar h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-transform: none;
+    color: #F1D0CA;
+}
