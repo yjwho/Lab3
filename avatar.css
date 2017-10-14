@@ -6,9 +6,9 @@
     text-align: center;
     height: 300px;
     width: 100%;
-    text-shadow: 2px 2px 8px #8A8184;
+    text-shadow: 2px 2px 20px darkred;
         padding: 0px;
-	color: darkred; 
+	color: #F1D0CA;
 	font-size: 100px;
 	font-weight: bolder;
 }
@@ -30,10 +30,14 @@ input{
     box-sizing: border-box;
     border: 3px solid #F1D0CA;
     -webkit-transition: 0.5s;
-    transition: 0.5s;
+
     outline: none;
 	color: #EFF0DA;
     font-size: 20px;
+}
+
+input:placeholder{
+    color: #EFF0DA;
 }
 
 input:focus {
@@ -41,7 +45,7 @@ input:focus {
 }
 
 .button {
-    background-color: #C47372;
+    background-color: cadetblue;
     border: none;
     color: #EBEBD6;
     padding: 5px 15px;
@@ -51,10 +55,12 @@ input:focus {
     margin: 4px 2px;
     cursor: pointer;
 	border-radius: 4px;
+    font-family: 'Butterfly Kids', cursive;
+    font-size: 40px;
 }
 
 .button:hover {
-    background-color: #783647;
+    background-color: darkcyan;
     color: white;
 }
 
@@ -70,20 +76,20 @@ input:focus {
 }
 
 .Avatar img {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
 }
 
 .Avatar h4 {
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     text-transform: none;
     color: #EFF0DA;
 }
 .Avatar h5 {
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     text-transform: none;
     color: #F1D0CA;
 }
